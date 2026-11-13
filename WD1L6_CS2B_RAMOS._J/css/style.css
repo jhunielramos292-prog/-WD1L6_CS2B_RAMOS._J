@@ -1,0 +1,256 @@
+
+/* GENERAL STYLE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #071a33;
+    color: white;
+}
+
+/* NAVIGATION */
+.navbar {
+    background: #06152b;
+    padding: 15px;
+}
+
+.navbar-brand {
+    color: #55baff !important;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #55baff !important;
+}
+
+/* HERO SECTION */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    background: linear-gradient(135deg, #071a33, #123d70);
+}
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.hero h1 span {
+    color: #55baff;
+}
+
+.hero h3 {
+    color: #55baff;
+}
+
+.hero p {
+    color: #c5d8ed;
+    margin-top: 20px;
+    max-width: 550px;
+}
+
+.hero-icon {
+    font-size: 180px;
+    color: #55baff;
+}
+
+/* GENERAL SECTIONS */
+.section {
+    padding: 90px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #55baff;
+}
+
+/* ABOUT ME */
+.profile-img {
+    width: 280px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid #55baff;
+    margin-bottom: 20px;
+}
+
+#about {
+    background: #0d2748;
+}
+
+#about h3 {
+    color: #55baff;
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #d2e1f2;
+    line-height: 1.8;
+}
+
+.motto {
+    background: #123d70;
+    border-left: 5px solid #55baff;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+.motto h5 {
+    color: #55baff;
+}
+
+.motto p {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* DESIGN PHILOSOPHY */
+.philosophy {
+    background: #071a33;
+}
+
+.philosophy-text {
+    color: #c5d8ed;
+    max-width: 850px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.philosophy-card {
+    background: #12345a;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.philosophy-card:hover {
+    transform: translateY(-10px);
+    background: #174779;
+}
+
+.philosophy-card i {
+    font-size: 45px;
+    color: #55baff;
+}
+
+.philosophy-card h4 {
+    margin: 20px 0;
+    color: #55baff;
+}
+
+.philosophy-card p {
+    color: #d2e1f2;
+}
+
+/* PROJECTS */
+#projects {
+    background: #0d2748;
+}
+
+.project-card {
+    background: #12345a;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background: #1c4b7c;
+}
+
+.project-content {
+    padding: 25px;
+}
+
+.project-content h3 {
+    color: #55baff;
+}
+
+.project-content p {
+    color: #d2e1f2;
+}
+
+/* CONTACT */
+.contact {
+    background: #071a33;
+}
+
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info p {
+    color: #d2e1f2;
+    font-size: 18px;
+    margin: 15px;
+}
+
+.contact-info i {
+    color: #55baff;
+    margin-right: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #06152b;
+    text-align: center;
+    padding: 20px;
+    color: #a9c2df;
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-icon {
+        font-size: 120px;
+        margin-top: 30px;
+    }
+
+    .section {
+        padding: 65px 0;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .profile-img {
+        width: 230px;
+        height: 270px;
+    }
+}
